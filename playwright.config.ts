@@ -32,7 +32,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL: 'https://parabank.parasoft.com/parabank',
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
     /* Base URL to use in actions like `await page.goto('')`. */
